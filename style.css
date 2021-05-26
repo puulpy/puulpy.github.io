@@ -1,0 +1,41 @@
+header{
+	text-align: center; 
+}
+
+div {
+	margin-top: 20px;
+	margin-left: 60px;
+	margin-right: 60px;
+	padding-bottom: 500px;
+	background-color: black;
+}
+
+p {
+	font-size: 25px;
+	text-align: left;
+	color: orange;
+	text-align: center;
+}
+
+nav {
+	padding: 23px;
+	background-color: black;
+}
+
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+
+nav ul li a{
+	text-decoration: none;
+	padding: 40px;
+	color: orange;
+	font-size: 40px;
+}
+
+nav ul li:hover a{
+	color: black;
+	background-color: orange;
+	transition: 0.5s all;
+}
